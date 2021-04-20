@@ -20,6 +20,6 @@ fn me(space: i32) -> bool {
 }
 
 
-fn <'a> lifetime('a ) -> {
-
+fn lifetime<'a>(ii: & 'a i32) -> i32 {
+    return 0;
 }
